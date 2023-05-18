@@ -1,6 +1,14 @@
+import Input from "../../components/Input";
+import MainButton from "../../components/MainButton";
+import Section from "../../components/Section";
+
 const Login = () => {
     return (
-         <h1>Olá!!!</h1>
+        <Section width="40%">
+            <h1>Digite sua API Key: </h1>
+            <Input/>
+            <MainButton>Entrar</MainButton>
+        </Section>
     );
 }
 
